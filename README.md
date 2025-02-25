@@ -17,3 +17,8 @@ notification_system.observaciones_meteorologicas_ref: Tabla que almacena un iden
 SMN.observaciones_meteorologicas: Tabla con datos meteorológicos proporcionados por el Servicio Meteorológico Nacional (SMN), actualizada cada hora.
 notification_system.notificaciones: Tabla que registra información sobre las notificaciones, incluyendo el identificador del usuario (user_id), las solicitudes realizadas y otros datos relevantes.
 juanserver.saltogrande_explotacion: Tabla con información en tiempo real proveniente de Salto Grande, actualizada cada hora y 22 minutos. 
+
+### enviar_notificaciones_prod
+Este script está programado para ejecutarse mediante un cronjob una vez por hora, específicamente al segundo 5 de iniciada cada hora.
+Su función es enviar, cuando corresponde, las notificaciones que los usuarios han configurado previamente a través del bot.
+Se trata de una variante del script offline_enviar_notific, al que se le ha incorporado la librería telebot para habilitar el envío de mensajes mediante Telegram.
