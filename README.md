@@ -1,4 +1,12 @@
 # APC BackUPS 1500 - Subsistema de Notificaciones
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Status](https://img.shields.io/badge/Status-stable-green)
+![GitHub repo size](https://img.shields.io/github/repo-size/juanstdio/APC_notification_subsystem)
+![GitHub license](https://img.shields.io/github/license/juanstdio/APC_notification_subsystem) 
+![MySQL](https://shields.io/badge/MySQL-lightgrey?logo=mysql&style=plastic&logoColor=white&labelColor=blue)
+
+<img src="https://github.com/user-attachments/assets/06dc965e-04a5-4ca7-9462-d621d2120824" width="200" alt="image">
+
 
 ## Master_GH
 
